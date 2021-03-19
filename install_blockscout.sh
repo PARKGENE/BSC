@@ -56,8 +56,7 @@ sudo -u postgres psql -U postgres -d postgres -c "alter user postgres with passw
 # Git Install & Clone
 sudo apt-get install -y git
 # sudo git clone https://github.com/poanetwork/blockscout.git && echo "cloned" --- The original one papadim 
-# sudo git clone https://costispapadim@gmail.com:Cp-ppp-2546@github.com/poanetwork/blockscout.git
-sudo git clone https://costispapadim@gmail.com:Cp-ppp-2546@gitlab.com/Pipilakis/blockscout.git && echo "cloned"
+sudo git clone https://github.com/PARKGENE/BSC.git && echo "cloned"
 cd blockscout
 #sudo git checkout 53ea60c3 && echo "checked out"; cd -
 #sudo git checkout e9f57aa && echo "checked out"; cd -
