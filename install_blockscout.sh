@@ -58,7 +58,7 @@ sudo apt-get install -y git
 sudo git clone https://github.com/poanetwork/blockscout.git && echo "cloned"
 # sudo git clone https://github.com/PARKGENE/BSC.git && echo "cloned"
 cd blockscout
-sudo git checkout 53ea60c3 && echo "checked out"; cd -
+#sudo git checkout 53ea60c3 && echo "checked out"; cd -
 #sudo git checkout e9f57aa && echo "checked out"; cd -
 # sudo chmod -R a+x blockscout && echo "permissions granted"
 
