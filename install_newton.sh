@@ -51,8 +51,7 @@ sudo apt-get update && sudo apt-get -y install postgresql
 sudo apt-get update && sudo apt-get -y install postgresql-client
 
 # PostgreSQL Configuration
-#sudo -u postgres psql -U postgres -d postgres -c "alter user postgres with password '$DATABASE_PW';"
-sudo -u postgres psql -U postgres -d postgres -c "alter user postgres with password 'Password123!';"
+sudo -u postgres psql -U postgres -d postgres -c "alter user postgres with password '$DATABASE_PW';"
 
 
 
