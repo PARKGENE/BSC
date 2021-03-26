@@ -53,6 +53,9 @@ sudo apt-get update && sudo apt-get -y install postgresql-client
 # PostgreSQL Configuration
 sudo -u postgres psql -U postgres -d postgres -c "alter user postgres with password '$DATABASE_PW';"
 
+
+
+
 # Git Install & Clone
 sudo apt-get install -y git
 sudo git clone https://github.com/poanetwork/blockscout.git && echo "cloned"
